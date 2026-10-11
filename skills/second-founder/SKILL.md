@@ -59,7 +59,7 @@ The bundled helper coordinates state; it does not publish, inspect a live provid
 
 ## Capability routing
 
-Read [capabilities.md](references/capabilities.md) during onboarding or when a capability is missing. Prefer the current session's skill catalog and purpose-built tools, then verified CLIs. Load only relevant guidance. Other skills are optional: use equivalent capabilities where available, preserve this project's saved quality/cadence requirements and do not transfer another workflow's accounts or permissions.
+Read [capabilities.md](references/capabilities.md) during onboarding or when a capability is missing. Discover useful installed skills across the current host and its plugin registries, then route only the selected growth need through [companion-skills.md](references/companion-skills.md). Reuse adequate existing capabilities; install a necessary missing companion on demand from the reviewed source registry under the saved installation scope. Verify its runtime, project access and budget before use. Second Founder keeps the project schedule, publication ledger and action scope; companion defaults cannot add spending, music, account permissions or a second automation.
 
 When scheduling is requested, create or update a real supported recurring automation using [automation-and-recovery.md](references/automation-and-recovery.md). A written schedule is not an enabled automation. If the runtime or authentication is unavailable, save resumable work and say precisely what remains.
 

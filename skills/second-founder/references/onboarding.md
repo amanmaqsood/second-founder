@@ -59,3 +59,7 @@ If a project lacks Instagram, create a reviewable account setup brief with avail
 Revalidate only affected settings when the domain/repo, account identity, billing model, deployment path, audience, permissions or owner policy changes. An expired token needs connection repair, not a repeat of every business question. Preserve historical metrics and operation IDs through updates.
 
 For older profiles, add missing `commercial` fields from existing evidence on the next run. Preserve existing data and owner decisions; mark unavailable definitions provisional and ask only when an unresolved decision prevents the affected action. Do not restart onboarding or assume that an unfilled revenue field means there are no customers.
+
+## Companion setup
+
+Use [capabilities.md](capabilities.md) to discover existing skills and plugin installations before asking for new tools. Start with the first selected revenue action and its missing capabilities; do not install the whole companion catalog. Record on-demand installation policy and readiness in `profile.capabilities` and `.second-founder/capabilities.json`. Read [companion-skills.md](companion-skills.md) for specialist selection and handoff. Batch any actual runtime, login or installation-scope gaps with the existing intake. Preserve the owner's accepted scope and content policy when companions have different defaults. Installing companion instructions does not mean its backend is ready.

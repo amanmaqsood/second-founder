@@ -87,6 +87,18 @@ The skill uses your existing tools: a CMS or repository, social publisher, Searc
 
 The local coordination helper needs **Python 3.10+** and uses only the standard library. It does not publish content or query providers itself. An actual daily run also needs a persistent workspace, authenticated integrations, included model/tool capacity and a verified scheduler. Codex app automation is used where available; Claude Code and other environments use their supported configured runner. Setup reports when scheduling is incomplete.
 
+## Useful companion skills, installed when needed
+
+Second Founder discovers existing skills in Codex and Claude, including installed plugins. It reuses a suitable provider first. With your saved no-cost installation permission, it installs a missing companion only when a selected growth action needs it, then checks runtime and account readiness.
+
+- **Strategy and buyer conversion:** Co-founder and selected Marketing Skills modules for customer research, positioning, signup, onboarding, retention and measurement.
+- **Research and search:** Agent Reach, Last30days and Organic Search Operator.
+- **Content and design:** Prose Humanizer, Impeccable and Checklist Design.
+- **Media:** Brag, HyperFrames, Product Launch Video, Media Use and Watch, with saved music, imagery, privacy and spending limits.
+- **Security-sensitive changes:** focused Security Audit guidance when warranted.
+
+The [routing guide](skills/second-founder/references/companion-skills.md) explains when each helps. The [source registry](skills/second-founder/assets/companion-registry.json) pins reviewed public sources, licenses and exact skill paths. [Installation guidance](skills/second-founder/references/capabilities.md) covers both agents, collisions, dependencies, provenance and fallbacks. Companions are optional upstream projects under their own licenses; they are not bundled here, and installing this skill does not install the whole catalog or authorize new spending.
+
 ## Updates and development
 
 Rerun the install command to take the current version. Keep project configuration in `.second-founder/`; preserve any edits you made to installed skill files before replacing them.

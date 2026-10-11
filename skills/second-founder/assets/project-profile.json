@@ -62,6 +62,7 @@
     "claim_inventory": "facts.md",
     "brand_assets": []
   },
+  "capabilities": {"installation_policy": "on_demand", "registry_file": "capabilities.json"},
   "connections": {
     "search_console": {"status": "unverified", "property_id": null, "credential_ref": null},
     "web_analytics": {"status": "unverified", "provider": null, "property_id": null, "credential_ref": null},

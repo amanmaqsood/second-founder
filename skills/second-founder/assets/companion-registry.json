@@ -1,0 +1,572 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-11",
+  "install_policy": "on_demand",
+  "providers": [
+    {
+      "id": "co-founder",
+      "repository": "machina-exm/co-founder",
+      "source_url": "https://github.com/machina-exm/co-founder",
+      "ref": "fad440e710285cd4eede4b06435979573805dc2e",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "linked_suite_or_namespaced_plugin",
+      "roles": [
+        "business strategy",
+        "idea challenge",
+        "business memory",
+        "weekly learning"
+      ],
+      "skills": [
+        {
+          "name": "co-founder-setup",
+          "path": ".agents/skills/co-founder-setup"
+        },
+        {
+          "name": "vision",
+          "path": ".agents/skills/vision"
+        },
+        {
+          "name": "plan",
+          "path": ".agents/skills/plan"
+        },
+        {
+          "name": "gauntlet",
+          "path": ".agents/skills/gauntlet"
+        },
+        {
+          "name": "research",
+          "path": ".agents/skills/research"
+        },
+        {
+          "name": "sprint",
+          "path": ".agents/skills/sprint"
+        },
+        {
+          "name": "review",
+          "path": ".agents/skills/review"
+        },
+        {
+          "name": "bank",
+          "path": ".agents/skills/bank"
+        },
+        {
+          "name": "steward",
+          "path": ".agents/skills/steward"
+        },
+        {
+          "name": "recall",
+          "path": ".agents/skills/recall"
+        },
+        {
+          "name": "offer",
+          "path": ".agents/skills/offer"
+        },
+        {
+          "name": "content-engine",
+          "path": ".agents/skills/content-engine"
+        },
+        {
+          "name": "help",
+          "path": ".agents/skills/help"
+        }
+      ],
+      "requirements": [
+        "Upstream README currently states Claude Code 2.1.206+ and Git for the full Claude plugin; do not purchase or upgrade a plan automatically.",
+        "Persistent workflows require a separately configured linked business charter/vault and Ruby for its mandatory graph-audit.",
+        "Installation does not complete setup or satisfy charter, consent, migration or initiative readiness gates."
+      ],
+      "constraints": [
+        "Use selectively for strategy, business memory, idea challenges and weekly learning. Do not create a second project scheduler or replace Second Founder's ledger.",
+        "Do not automatically run co-founder-setup in a product codebase or overwrite AGENTS.md/CLAUDE.md. Existing setup and migration flows have their own checks.",
+        "Generic names plan, review, research, help, offer and others can collide. Resolve provider plus exact path, or use native plugin namespace; never overwrite another provider.",
+        "Co-founder publication lifecycle expects exact consent receipts; do not silently translate Second Founder publishing authority into co-founder approval fields.",
+        "Offer and pricing work stays a proposal unless separately authorized.",
+        "Prefer the namespaced native plugin. For full portable workflows, preserve the complete 13-skill set and each folder's resources. Standalone gauntlet can perform verbal review without vault writes."
+      ],
+      "fallback": "Use Second Founder commercial-brief and experiment records; standalone gauntlet supports verbal review without vault writes."
+    },
+    {
+      "id": "marketing-skills",
+      "repository": "coreyhaines31/marketingskills",
+      "source_url": "https://github.com/coreyhaines31/marketingskills",
+      "ref": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "buyer research",
+        "positioning",
+        "conversion",
+        "activation",
+        "retention",
+        "measurement",
+        "editorial",
+        "search"
+      ],
+      "skills": [
+        {
+          "name": "product-marketing",
+          "path": "skills/product-marketing"
+        },
+        {
+          "name": "customer-research",
+          "path": "skills/customer-research"
+        },
+        {
+          "name": "cro",
+          "path": "skills/cro"
+        },
+        {
+          "name": "signup",
+          "path": "skills/signup"
+        },
+        {
+          "name": "onboarding",
+          "path": "skills/onboarding"
+        },
+        {
+          "name": "churn-prevention",
+          "path": "skills/churn-prevention"
+        },
+        {
+          "name": "seo-audit",
+          "path": "skills/seo-audit"
+        },
+        {
+          "name": "ai-seo",
+          "path": "skills/ai-seo"
+        },
+        {
+          "name": "schema",
+          "path": "skills/schema"
+        },
+        {
+          "name": "site-architecture",
+          "path": "skills/site-architecture"
+        },
+        {
+          "name": "content-strategy",
+          "path": "skills/content-strategy"
+        },
+        {
+          "name": "copywriting",
+          "path": "skills/copywriting"
+        },
+        {
+          "name": "copy-editing",
+          "path": "skills/copy-editing"
+        },
+        {
+          "name": "social",
+          "path": "skills/social"
+        },
+        {
+          "name": "analytics",
+          "path": "skills/analytics"
+        },
+        {
+          "name": "attribution",
+          "path": "skills/attribution"
+        },
+        {
+          "name": "marketing-loops",
+          "path": "skills/marketing-loops"
+        },
+        {
+          "name": "ab-testing",
+          "path": "skills/ab-testing"
+        },
+        {
+          "name": "competitor-profiling",
+          "path": "skills/competitor-profiling"
+        },
+        {
+          "name": "competitors",
+          "path": "skills/competitors"
+        },
+        {
+          "name": "free-tools",
+          "path": "skills/free-tools"
+        }
+      ],
+      "requirements": [
+        "Each selected name matches current SKILL.md frontmatter. Install only the module needed now and its own complete resources.",
+        "Related skills remain on-demand dependencies. Product-marketing context should derive from verified Second Founder profile/commercial-brief facts and retain source and unknown labels.",
+        "Provider CLIs, MCP connections, credentials, paid quotas and schedulers are separate capability checks.",
+        "Use an adequate existing installation; a newer reviewed upstream version is not permission to silently upgrade."
+      ],
+      "constraints": [
+        "Installation does not grant advertising spend, outreach, pricing, discounts, billing mutations, personal-data export or platform-registration authority.",
+        "Marketing-loop catalogs include restricted workflows; the selected loop still needs its existing scope checks.",
+        "Vendor registry suggestions do not authorize subscriptions or endorse a vendor.",
+        "customer-research: Interviews, recruitment, surveys and incentives need their own scope",
+        "churn-prevention: No automatic discounts, billing retries or win-back messages; preserve easy cancellation",
+        "social: Publish only to authorized accounts through shared ledger; no automatic replies or DMs",
+        "attribution: Assumes tracking exists; neighboring ads/revops references add no authority",
+        "marketing-loops: Second Founder remains scheduler and state authority; select permitted loops only",
+        "Do not bulk-install the suite. Sync verified project context only; do not fabricate buyer facts or overwrite existing marketing context.",
+        "Related skills and tool registries are suggestions, not automatic dependencies."
+      ],
+      "fallback": "Use the corresponding Second Founder playbook or an adequate existing specialist."
+    },
+    {
+      "id": "organic-search-operator",
+      "repository": "amanmaqsood/organic-search-operator",
+      "source_url": "https://github.com/amanmaqsood/organic-search-operator",
+      "ref": "05a349f14b6a02765c423ceef7303790d42bd053",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Search diagnostics, GSC opportunity analysis, high-intent landing pages, refreshes and evidence-led SEO/GEO."
+      ],
+      "skills": [
+        {
+          "name": "organic-search-operator",
+          "path": "."
+        }
+      ],
+      "requirements": [
+        "Python 3.10+ for helpers; optional gcloud for direct GSC; current approved search/browser provider. Core helpers have no Python package dependencies."
+      ],
+      "constraints": [
+        "Use as a bounded specialist under the Second Founder run. Do not create a duplicate scheduler or independent publishing queue. Carry the exact project, market, action authority, transaction ledger and budget into the specialist brief. It defaults to review-first; autonomous_safe is a separately configured one-action envelope. Existing approved scope should be reused, not silently widened. Listings still require explicit account identity and submission authority. Ignore quota disagreements by keeping the owner-approved quality-first cadence; preserve the stricter applicable operational boundary. Optional machine-readable files are not promised ranking signals."
+      ],
+      "fallback": "Use a suitable existing capability or the parent workflow; do not block independent growth lanes."
+    },
+    {
+      "id": "prose-humanizer",
+      "repository": "amanmaqsood/prose-humanizer",
+      "source_url": "https://github.com/amanmaqsood/prose-humanizer",
+      "ref": "8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Truthful, specific, voice-consistent articles, social posts, scripts and conversion copy."
+      ],
+      "skills": [
+        {
+          "name": "prose-humanizer",
+          "path": "."
+        }
+      ],
+      "requirements": [
+        "Skill guidance works without a separate service; optional prose-lint CLI needs Node >=18."
+      ],
+      "constraints": [
+        "Use Embedded mode with project facts, audience and content rules. Preserve sources, numbers, modality, pricing and feature truth; never turn U.S./UK localization into unsupported claims. Do not scan unrelated folders for voice samples. Avoid a second humanizer pass by default. Editing permission is not permission to send or publish."
+      ],
+      "fallback": "Use a suitable existing capability or the parent workflow; do not block independent growth lanes."
+    },
+    {
+      "id": "impeccable",
+      "repository": "pbakaus/impeccable",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "ref": "c63b8dd7dd5a5f3c32eaabe1af76d0694f863ed2",
+      "license": "Apache-2.0",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Targeted onboarding, UX-copy, accessibility, mobile and landing-page improvements."
+      ],
+      "skills": [
+        {
+          "name": "impeccable",
+          "path": ".agents/skills/impeccable"
+        }
+      ],
+      "requirements": [
+        "Context launcher runs a bundled or downloaded native engine. Installed launcher downloads from pbakaus/impeccable GitHub releases on first use when needed. Browser or actual rendered captures for visual validation."
+      ],
+      "constraints": [
+        "Use clarify/onboard/harden/audit/adapt for bounded work rather than an open redesign. Preserve incumbent identity, supported copy and user scope. Its ambitious design brief does not authorize fabricated proof, billing changes or unbounded polishing. Inspect launcher provenance before execution; no paid asset generation or new dependency spend. Missing launcher has a documented direct-context fallback. Hooks, agent registrations and scope expansion are separate mutations."
+      ],
+      "fallback": "Use a suitable existing capability or the parent workflow; do not block independent growth lanes."
+    },
+    {
+      "id": "checklist-design",
+      "repository": "Checklist-Design/skills",
+      "source_url": "https://github.com/Checklist-Design/skills",
+      "ref": "5de6e839dec4b0124c8301a7d9c43526ef065318",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Read-only review of login, onboarding, checkout, forms and other visible conversion surfaces using bundled checklists."
+      ],
+      "skills": [
+        {
+          "name": "checklist-design",
+          "path": "skills/checklist-design"
+        }
+      ],
+      "requirements": [
+        "Bundled offline checklist references; actual screenshot/rendered target for visual critique. Source-only audits must state their limits."
+      ],
+      "constraints": [
+        "Review only the owner-confirmed target. No checkout submission, account action or navigation beyond the supplied scope. Pass findings to Second Founder for separately scoped implementation and testing. Avoid running it and Impeccable as redundant exhaustive audits every day.",
+        "Installed version 3.2.1; pinned current official version 3.2.4. Entrypoint diff only version and naming Claude instead of Codex in an unsupported web-tool assertion; do not rely on that assertion. Remaining reviewed workflow matches."
+      ],
+      "fallback": "Use a suitable existing capability or the parent workflow; do not block independent growth lanes."
+    },
+    {
+      "id": "security-audit",
+      "repository": "cloudflare/security-audit-skill",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "ref": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Focused defensive review of a growth change touching authentication, tenant boundaries, file uploads, analytics handling or secrets."
+      ],
+      "skills": [
+        {
+          "name": "security-audit",
+          "path": "skills/security-audit"
+        }
+      ],
+      "requirements": [
+        "Source review can be read-only. Target-controlled execution requires the skill's OS-enforced offline sandbox, clean allowlisted environment, readonly target/toolchain, scratch-only writes and resource limits."
+      ],
+      "constraints": [
+        "Default to Guidance mode, not a daily full audit or pen-test. Missing enforced sandbox means do not execute target code; report the exact validation gap. No live endpoint probing, production data, new packages or paid API quotas. Never present a focused source check as certification or comprehensive assurance."
+      ],
+      "fallback": "Use a suitable existing capability or the parent workflow; do not block independent growth lanes."
+    },
+    {
+      "id": "humanizer",
+      "repository": "blader/humanizer",
+      "source_url": "https://github.com/blader/humanizer",
+      "ref": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Fallback prose editing when already present or when prose-humanizer is unavailable; do not require both."
+      ],
+      "skills": [
+        {
+          "name": "humanizer",
+          "path": "."
+        }
+      ],
+      "requirements": [
+        "Guidance only; no separate service required."
+      ],
+      "constraints": [
+        "Preserve factual content and supplied voice, forbid invented lived experience or detector-evasion promises, keep publication under the parent workflow. Instructions are prose-only, not new external capabilities."
+      ],
+      "fallback": "Use a suitable existing capability or the parent workflow; do not block independent growth lanes."
+    },
+    {
+      "id": "brag",
+      "repository": "latent-spaces/brag",
+      "source_url": "https://github.com/latent-spaces/brag",
+      "ref": "8531ccb9f471ef5099abf930079e47b55c55bb21",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Short product demonstration or feature-launch video from actual project code, including poster and share copy. Tie hook and CTA to the selected buyer and conversion experiment."
+      ],
+      "skills": [
+        {
+          "name": "brag",
+          "path": "skills/brag"
+        }
+      ],
+      "requirements": [
+        "Node.js 22+",
+        "FFmpeg",
+        "HyperFrames CLI",
+        "hyperframes-core",
+        "hyperframes-animation",
+        "hyperframes-creative",
+        "hyperframes-keyframes",
+        "hyperframes-cli"
+      ],
+      "constraints": [
+        "Pass --no-music and --no-sfx every time, including delegated or slim routes; inspect resulting media for compliance.",
+        "Actual verified product capabilities only; cinematic tone must not become unsupported superiority or revenue claims.",
+        "Latest public revision adds a model-dependent brag-slim dispatch; installed copy is older. Do not assume installed instructions equal current public revision.",
+        "Keep rendering local unless a separately authorized no-additional-cost provider is configured; a share-copy output does not authorize posting."
+      ],
+      "fallback": "Existing product screenshots or a static carousel; use the configured HyperFrames product-launch workflow when the planned video is longer or based on a URL."
+    },
+    {
+      "id": "agent-reach",
+      "repository": "Panniantong/Agent-Reach",
+      "source_url": "https://github.com/Panniantong/Agent-Reach",
+      "ref": "94f06c1969dfc1834001269d79d3ad0972d9dee6",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Read-only platform routing for competitor research, buyer problems, language and channel discovery. Select only platforms relevant to the buyer and market."
+      ],
+      "skills": [
+        {
+          "name": "agent-reach",
+          "path": "agent_reach/skill"
+        }
+      ],
+      "requirements": [
+        "Python CLI agent-reach",
+        "platform-specific tools selected by doctor; optional Node.js/mcporter/gh/yt-dlp/OpenCLI"
+      ],
+      "constraints": [
+        "doctor --json indicates backend readiness, not substantive research evidence; active_backend null can mean the probe intentionally avoided authentication-sensitive work.",
+        "Public source calls disclose query text. Use public product/category terms, never private customer rows, support text with identifiers, secrets or source code.",
+        "Installing the skill does not grant cookie extraction, browser-session access, account creation, outreach or publishing authority.",
+        "Current installation guide defaults agent-reach install --env=auto to read-only checks; --system and --channels widen machine changes. Avoid --channels=all.",
+        "Do not let its broad MUST USE routing claims override host tools, the project's allowed scope, or dedicated providers."
+      ],
+      "fallback": "Native web search plus official product documentation and public communities; report unobserved channels instead of treating missing access as no demand."
+    },
+    {
+      "id": "last30days",
+      "repository": "mvanhorn/last30days-skill",
+      "source_url": "https://github.com/mvanhorn/last30days-skill",
+      "ref": "267d50f7fcbab8a6457a93ad6ca15cbc199f633c",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Periodic fresh community evidence on buyer problems, competitors and changes. Useful as a bounded research input, not a requirement to consume daily time or chase engagement."
+      ],
+      "skills": [
+        {
+          "name": "last30days",
+          "path": "skills/last30days"
+        }
+      ],
+      "requirements": [
+        "Python 3.12+ in current upstream",
+        "optional Node.js/yt-dlp and provider credentials depending on source"
+      ],
+      "constraints": [
+        "Read the installed runtime and source routing references; upstream v3.27.2 differs significantly from installed v3.25.0.",
+        "Select explicitly allowed sources/providers and inspect --preflight/--diagnose without exposing secrets. Credential presence is not proof of free allowance or authorization.",
+        "Use free public sources or already authorized included allowance; disable paid fallbacks, synthesis, deep research and automatic signup prompts under Second Founder's no-spending contract.",
+        "No automatic cookie reads, authentication, hosted briefing publication or paid provider enrollment.",
+        "Use an isolated project research directory and a structured evidence handoff. Upstream supports --emit=json for workflow use; --agent is skill-level guidance rather than a guessed engine flag.",
+        "Upstream may include Polymarket and other irrelevant sources; omit gambling/prediction-market channels for this owner's content policy and avoid promoting them.",
+        "Community popularity is a hypothesis, not US/UK geography proof, demand proof, buyer qualification or revenue."
+      ],
+      "fallback": "Targeted dated web research with source URLs, dates, confidence and explicit coverage gaps; continue independent growth work if a provider is unavailable."
+    },
+    {
+      "id": "hyperframes",
+      "repository": "heygen-com/hyperframes",
+      "source_url": "https://github.com/heygen-com/hyperframes",
+      "ref": "d4dd6c097d22ca890c0eea401eaebf550ce10fae",
+      "license": "Apache-2.0",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Local product demos, onboarding walkthroughs, launch clips and buyer-specific educational videos with testable renders.",
+        "Resolve licensed icons/logos, reuse existing approved assets, produce permitted narration/captions and perform local media operations.",
+        "Longer URL- or brief-based product walkthrough when it addresses a buying objection, onboarding friction or upcoming launch."
+      ],
+      "skills": [
+        {
+          "name": "hyperframes",
+          "path": "skills/hyperframes"
+        },
+        {
+          "name": "hyperframes-core",
+          "path": "skills/hyperframes-core"
+        },
+        {
+          "name": "hyperframes-animation",
+          "path": "skills/hyperframes-animation"
+        },
+        {
+          "name": "hyperframes-keyframes",
+          "path": "skills/hyperframes-keyframes"
+        },
+        {
+          "name": "hyperframes-creative",
+          "path": "skills/hyperframes-creative"
+        },
+        {
+          "name": "hyperframes-cli",
+          "path": "skills/hyperframes-cli"
+        },
+        {
+          "name": "hyperframes-registry",
+          "path": "skills/hyperframes-registry"
+        },
+        {
+          "name": "hyperframes-audio",
+          "path": "skills/hyperframes-audio"
+        },
+        {
+          "name": "media-use",
+          "path": "skills/media-use"
+        },
+        {
+          "name": "product-launch-video",
+          "path": "skills/product-launch-video"
+        }
+      ],
+      "requirements": [
+        "Node.js 22+",
+        "FFmpeg",
+        "HyperFrames CLI and renderer browser dependencies"
+      ],
+      "constraints": [
+        "No music; SFX off; narration only from an approved provider and allowed imagery.",
+        "Pass a complete brief derived from the saved project contract so companion interviews do not repeatedly interrupt daily runs.",
+        "HyperFrames init/skills commands can refresh installed global skills, and router instructions can install workflows. Apply Second Founder's source review and update policy to this transitive behavior.",
+        "Core local rendering is distinct from paid cloud rendering, media APIs or authentication; don't enable cloud render or paid services implicitly.",
+        "Respect existing plugin update manager rather than refreshing plugin files with a standalone CLI.",
+        "Override proactive BGM and SFX suggestions; do not select bgm or avatar-video just because available.",
+        "Default cloud path encourages HeyGen OAuth; API-key path can charge API credits. Verify existing included allowance, don't assume a free label means zero incremental spend.",
+        "--local-only skips network asset providers where supported; no cold model download without fitting machine resources and selected need.",
+        "Global cache and preferences can cross project boundaries: reuse only licensed nonprivate assets and keep brand/private material scoped.",
+        "Optional telemetry opt-outs are DO_NOT_TRACK=1 or HYPERFRAMES_NO_TELEMETRY=1; never send private intent text to external generation without scope.",
+        "Official-looking logo retrieval does not grant permission to imply endorsement; retain provenance and asset license/usage rights.",
+        "Use existing confirmed BRIEF.md and autonomous flow from authorized project scope; avoid duplicate setup interviews.",
+        "Do not consume partial captures after capture failure or invent screens. Use actual captured or user-supplied product evidence.",
+        "Carry no-music/SFX-off, imagery restrictions, no-new-spend and local-render rules into every frame worker.",
+        "Capture can auto-caption assets when provider keys exist; key presence alone does not authorize API charges or sensitive uploads."
+      ],
+      "fallback": "Existing approved renderer, product screenshots, or a static instructional visual when local video dependencies are unavailable."
+    },
+    {
+      "id": "watch",
+      "repository": "bradautomates/claude-video",
+      "source_url": "https://github.com/bradautomates/claude-video",
+      "ref": "03ceb42f7fa2c4439aca01752118044baabffb8f",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "installation_unit": "selected_skills",
+      "roles": [
+        "Inspect generated video QA or a specifically relevant competitor/tutorial video. Review frames for legibility, product accuracy and content restrictions."
+      ],
+      "skills": [
+        {
+          "name": "watch",
+          "path": "skills/watch"
+        }
+      ],
+      "requirements": [
+        "Python 3.10+",
+        "FFmpeg/ffprobe",
+        "yt-dlp only for supported remote video acquisition"
+      ],
+      "constraints": [
+        "Current upstream auto engine selects Gemini when a key resolves and can upload local videos. For a local/private/no-new-spend route pass --engine local --no-whisper; no cloud upload or paid transcription just because keys exist.",
+        "Installed v0.2.0 does not share current v0.3.2 flags. Read installed help and choose supported controls instead of assuming one command works everywhere.",
+        "Local WhisperX setup can download about 1.5GB and is optional; use captions or existing approved local models first.",
+        "Do not inspect browser sessions or add cookie options without explicit saved authorization; yt-dlp existing config can still carry auth settings.",
+        "Transcript-only output cannot establish visual claims; sample limits cannot prove an entire video is music-free."
+      ],
+      "fallback": "Native media viewer or local FFmpeg contact sheet plus ffprobe stream metadata and audio inspection as needed."
+    }
+  ]
+}
