@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "setup_status": "unconfigured",
+  "project": {
+    "id": null,
+    "name": null,
+    "workspace": null,
+    "repository": null,
+    "canonical_domain": null,
+    "audience": null,
+    "markets": [],
+    "language": null,
+    "timezone": null,
+    "facts_file": "facts.md"
+  },
+  "market_priority": {
+    "primary_country_codes": ["US", "GB"],
+    "include_other_markets": true,
+    "allocation_strategy": "priority_first_evidence_led"
+  },
+  "objective": {
+    "primary": "paying_customers_and_sustainable_revenue",
+    "activation_definition": null,
+    "revenue_definition": null,
+    "currency": null,
+    "baseline_record": null
+  },
+  "commercial": {
+    "business_model": null,
+    "purchase_motion": null,
+    "stage": null,
+    "priority_segment_id": null,
+    "buyer_segments": [],
+    "brief_file": "commercial-brief.md",
+    "purchase_path_ref": null,
+    "current_bottleneck": null,
+    "active_experiment_ref": null,
+    "channel_scorecard_ref": null
+  },
+  "authority": {
+    "source": null,
+    "resource_bindings_verified": false,
+    "allowed_categories": [
+      "aggregate_analytics", "market_research", "local_drafting"
+    ],
+    "separately_enabled_categories": [],
+    "excluded_by_default": [
+      "pricing_changes", "billing_changes", "destructive_data_operations",
+      "direct_outreach", "additional_spending"
+    ]
+  },
+  "budget": {"additional_spend_limit": 0, "included_allowances": [], "generation_limits": null},
+  "content": {
+    "new_blog_target_per_day": 2,
+    "quality_before_quantity": true,
+    "launch_plan_days": 30,
+    "visual_policy": "modest_music_free",
+    "narration_allowed": true,
+    "music_allowed": false,
+    "sound_effects_allowed": false,
+    "additional_rules": [],
+    "claim_inventory": "facts.md",
+    "brand_assets": []
+  },
+  "connections": {
+    "search_console": {"status": "unverified", "property_id": null, "credential_ref": null},
+    "web_analytics": {"status": "unverified", "provider": null, "property_id": null, "credential_ref": null},
+    "product_analytics": {"status": "unverified", "provider": null, "project_id": null, "credential_ref": null},
+    "database": {"status": "unverified", "provider": null, "credential_ref": null, "analytics_read_only": true, "adapter_ref": null},
+    "revenue": {"status": "unverified", "provider": null, "account_id": null, "credential_ref": null, "adapter_ref": null},
+    "admin": {"status": "unverified", "url": null, "credential_ref": null},
+    "publishing": {"status": "unverified", "provider": null, "target_id": null, "credential_ref": null, "workflow_ref": null},
+    "deployment": {"status": "unverified", "provider": null, "target_id": null, "workflow_ref": null, "checks_ref": null, "rollback_ref": null}
+  },
+  "social": {
+    "brand_accounts": [],
+    "personal_amplification_accounts": [],
+    "shared_calendar_database": null,
+    "shared_account_limits_verified": false,
+    "account_entry_fields": ["provider", "provider_account_id", "canonical_destination_id", "handle", "role", "verified_at", "credential_ref", "cadence"]
+  },
+  "automation": {
+    "enabled": false,
+    "provider": null,
+    "automation_id": null,
+    "daily_time": null,
+    "timezone": null,
+    "runtime": null,
+    "working_directory": null,
+    "notify_on": ["meaningful_change", "completion", "failure", "required_user_action"]
+  },
+  "state": {
+    "founder_database": null,
+    "experiments_file": "experiments.jsonl",
+    "content_inventory_file": "content-inventory.jsonl",
+    "launch_plan_file": "launch-plan.md",
+    "last_run": null,
+    "last_preflight": null,
+    "lanes": {},
+    "blockers": []
+  }
+}

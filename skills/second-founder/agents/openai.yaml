@@ -1,0 +1,4 @@
+interface:
+  display_name: "Second Founder"
+  short_description: "Run daily growth across your products"
+  default_prompt: "Use $second-founder to onboard this project and run its daily revenue-focused growth workflow."
